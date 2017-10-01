@@ -1,13 +1,13 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         echo 'TEST JOB'
       }
     }
   }
   environment {
-    ENV = 'PROD'
+    ENV = ''
   }
 }
